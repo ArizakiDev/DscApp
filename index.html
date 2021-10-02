@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive landing page headphones</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#specs" class="nav__link">critère</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#case" class="nav__link">information</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">dev</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div>
+                    <img src="./assets/img/abc.png" alt="" class="">
+                </div>
+
+                <div class="home__data">
+                    <div class="home__header">
+                        <h1 class="home__title">DscApp</h1>
+                        <h2 class="home__subtitle">bêta</h2>
+                    </div>
+
+                    <div class="home__footer">
+                        <h3 class="home__title-description">présentation</h3>
+                        <p class="home__description">DscApp est un site regroupant tout vos bot discord vérifier !
+                        </p>
+                        <a href="#" class="button button--flex">
+                            <span class="button--flex">
+                                    <i class="ri-shopping-bag-line button__icon"></i></i> site internet.
+                                </span>
+                            <span class="home__price"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SPECS ===============-->
+        <section class="specs section grid" id="specs">
+            <h2 class="section__title section__title-gradient">que dois-je avoir pour être sûr que mon bot soit valider ?</h2>
+
+            <div class="specs__container container grid">
+                <div class="specs__content grid">
+                    <div class="specs__data">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                            <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                            <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                          </svg>
+                        <h3 class="specs__title">des commandes.</h3>
+                        <span class="specs__subtitle">Préférable minimum 5 commandes.</span>
+                    </div>
+
+                    <div class="specs__data">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+                            <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z"/>
+                          </svg>
+                        <h3 class="specs__title">Des serveurs.</h3>
+                        <span class="specs__subtitle">Veuillez avoir 3 serveurs minimum.</span>
+                    </div>
+
+                    <div class="specs__data">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hdd" viewBox="0 0 16 16">
+                            <path d="M4.5 11a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM3 10.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                            <path d="M16 11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V9.51c0-.418.105-.83.305-1.197l2.472-4.531A1.5 1.5 0 0 1 4.094 3h7.812a1.5 1.5 0 0 1 1.317.782l2.472 4.53c.2.368.305.78.305 1.198V11zM3.655 4.26 1.592 8.043C1.724 8.014 1.86 8 2 8h12c.14 0 .276.014.408.042L12.345 4.26a.5.5 0 0 0-.439-.26H4.094a.5.5 0 0 0-.44.26zM1 10v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"/>
+                          </svg>
+                        <h3 class="specs__title">un hébergement.</h3>
+                        <span class="specs__subtitle">Il serait préférable que votre bot soit connecter h24.</span>
+                    </div>
+
+                    <div class="specs__data">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+                            <path d="M6.552 6.712c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888.008-.488-.36-.888-.816-.888zm2.92 0c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888s-.36-.888-.816-.888z"/>
+                            <path d="M13.36 0H2.64C1.736 0 1 .736 1 1.648v10.816c0 .912.736 1.648 1.64 1.648h9.072l-.424-1.48 1.024.952.968.896L15 16V1.648C15 .736 14.264 0 13.36 0zm-3.088 10.448s-.288-.344-.528-.648c1.048-.296 1.448-.952 1.448-.952-.328.216-.64.368-.92.472-.4.168-.784.28-1.16.344a5.604 5.604 0 0 1-2.072-.008 6.716 6.716 0 0 1-1.176-.344 4.688 4.688 0 0 1-.584-.272c-.024-.016-.048-.024-.072-.04-.016-.008-.024-.016-.032-.024-.144-.08-.224-.136-.224-.136s.384.64 1.4.944c-.24.304-.536.664-.536.664-1.768-.056-2.44-1.216-2.44-1.216 0-2.576 1.152-4.664 1.152-4.664 1.152-.864 2.248-.84 2.248-.84l.08.096c-1.44.416-2.104 1.048-2.104 1.048s.176-.096.472-.232c.856-.376 1.536-.48 1.816-.504.048-.008.088-.016.136-.016a6.521 6.521 0 0 1 4.024.752s-.632-.6-1.992-1.016l.112-.128s1.096-.024 2.248.84c0 0 1.152 2.088 1.152 4.664 0 0-.68 1.16-2.448 1.216z"/>
+                          </svg>
+                        <h3 class="specs__title">Un serveur support.</h3>
+                        <span class="specs__subtitle">Un serveur discord réserver au bot sera parfait<br> mais si vous avez un site internet cela est parfait...</span>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/820367515350728727/885248446951477268/3a5d891711e7a3427b70a0557b4ec348.gif" alt="" class="">
+                </div>
+            </div>
+        </section>
+
+        <!--=============== CASE ===============-->
+        <section class="case section grid" id="case">
+            <h2 class="section__title section__title-gradient">Pourquoi avoir créé ce site ?</h2>
+
+            <div class="case__container container grid">
+                <div>
+                    <img src="assets/img/189665.png" alt="" class="">
+                </div>
+
+                <div class="case__data">
+                    <p class="case__description">ce site à été créé sur la base de Top.gg, en voyant que l'entrée devient difficile j'ai décidé de créé mon propre site réservé au bot des petits/grand développeurs
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== DISCOUNT ===============-->
+        <section class="discount section">
+            <div class="discount__container container grid">
+                <div class="discount__animate">
+                    <h2 class="discount__title">Ouverture <br> Prochainement...</h2>
+                    <p class="discount__description">Your rules, your games</p>
+                    <a href="#" class="button button--flex">
+                        <i class="ri-shopping-bag-line button__icon"></i> :)
+                    </a>
+                </div>
+
+                <img src="assets/img/fw7CRRzTJ9rr8jY8kYtJ.jpg" alt="" class="discount__img">
+            </div>
+        </section>
+
+        <!--=============== PRODUCTS ===============-->
+        <section class="products section" id="products">
+            <h2 class="section__title section__title-gradient products__line">
+                l'équipe de <br> développement.
+            </h2>
+
+            <div class="products__container container grid">
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="https://cdn.discordapp.com/avatars/820360564219707392/257c3461b6fbc6f6ea5a42ab505a1954.webp?size=2048" alt="" class="products__img">
+
+                        <h3 class="products__title">!" Arizaki#0824 <br> 820360564219707392</h3>
+                        <span class="products__price">créateur</span>
+                    </div>
+                </article>
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="https://cdn.discordapp.com/avatars/861265341786488863/32033ab36eee4244430b43d139bf315f.webp?size=80" alt="" class="products__img">
+
+                        <h3 class="products__title">!" ๖̶ζ͜͡Ray#3260 <br> 861265341786488863</h3>
+                        <span class="products__price">Contribution du projet</span>
+                    </div>
+                </article>
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="https://cdn.discordapp.com/avatars/769534031707897856/a_afdd5aa10ed454938acda1a1dd429a84.webp?size=80" alt="" class="products__img">
+
+                        <h3 class="products__title">Aruya#0001 <br> 769534031707897856</h3>
+                        <span class="products__price">contribution du projet</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <a href="#" class="footer__logo">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Products</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">DscApp accueil</a>
+                    </li>
+                    <li>
+                        <a href="panel.html" class="footer__link">panel d'ajout</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Support</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="https://discord.gg/nQaVjaH8wC" class="footer__link">Discord</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">connexion (soon)</a>
+                    </li>
+                    <li>
+                        <a href="update.html" class="footer__link">Updates</a>
+                    </li>
+                    <li>
+                        <a href="https://mizuki0.netlify.app/" class="footer__link">autres projet</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer__copy">
+            <a href="" target="_blank" class="footer__copy-link">&#169; DscApp. All right reserved</a>
+        </p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
